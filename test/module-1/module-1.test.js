@@ -5,6 +5,7 @@ const jsdom = require('jsdom');
 const app = require('../../api/app');
 const assert = require('assert');
 const R = require('ramda');
+const { expect } = require('chai');
 const {JSDOM} = jsdom;
 
 describe('module 1', () => {
